@@ -1,9 +1,136 @@
 body {
     background: #92B4EC;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
     text-align: center;
-    font-size: 3rem;
+    font-family: 'Tomorrow', Verdana, sans-serif;
+    font-size: 1.25rem;
 }
 h1 {
-    font-size:6rem;
+    font-size: 3rem;
+    margin: auto;
+    font-family: 'Press Start 2P', Arial, sans-serif;
 }
+h1  hover {
+    color: #fff;
+    cursor: grab;
+}
+
+h2 {
+    font-family: 'Press Start 2P', Arial, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+h3 {
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+}
+
+hr {
+    border-style: solid;
+}
+
+img {
+    display: inline-block;
+  }
+
+  a {
+   color:#11999e;
+  
+   margin: 10px 10px;
+   text-decoration: none;
+  }
+
+  a:hover {
+    color:#eaf6f6;
+  }
+
+  .top-container {
+    width:80%;
+    position: relative;
+    padding-top: 100px;
+    margin: auto;
+  }
+  
+  .middle-container {
+    background-color: #92B4EC;
+    margin-bottom: 20px;
+  }
+  
+  .bottom-container {
+    background-color: #8AB6D6;
+    padding-top: 20px;
+  }
+  
+  .top-cloud {
+    position: absolute;
+    right: 100px;
+    top: 20px;
+  }
+  
+  .bottom-cloud {
+    position: absolute;
+    left: 100px;
+    bottom: 400px;
+  }
+  
+  .itopng {
+    padding-top: 30px;
+    max-width: 10%;
+ 
+  }
+
+  .profile {
+    width: 50%;
+    margin:auto;
+    text-align: left;
+    line-height: 1;
+  }
+
+  .skill-row {
+    width: 50%;
+    margin:auto;
+    text-align: left;
+    line-height: 1;
+  }
+
+  .production {
+    max-width: 7%;
+  }
+  
+  .monitoring {
+    max-width: 7%;
+  }
+  
+  .btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Press Start 2P', 'Arial', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  
+  .copyright {
+    color:#eaf6f6;
+    font-size: .75rem;
+    padding: 10px 0;
+    margin-bottom: auto;
+  }
