@@ -10,7 +10,7 @@ h1 {
     margin: auto;
     font-family: 'Press Start 2P', Arial, sans-serif;
 }
-h1  hover {
+h1:hover {
     color: #fff;
     cursor: grab;
 }
@@ -75,30 +75,21 @@ img {
   
   .itopng {
     padding-top: 30px;
-    max-width: 10%;
+    max-width: 15%;
  
   }
 
-  .profile {
-    width: 50%;
+  .profile, .skill-row {
+    width: 40%;
     margin:auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: left;
     line-height: 1;
   }
 
-  .skill-row {
-    width: 50%;
-    margin:auto;
-    text-align: left;
-    line-height: 1;
-  }
-
-  .production {
-    max-width: 7%;
-  }
-  
-  .monitoring {
-    max-width: 7%;
+  .production, .monitoring {
+    max-width: 10%;
   }
   
   .btn {
@@ -113,8 +104,8 @@ img {
     border-radius: 8px;
     font-family: 'Press Start 2P', 'Arial', sans-serif;
     color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
+    font-size: 10px;
+    padding: 10px 10px 10px 10px;
     text-decoration: none;
   }
   
@@ -126,6 +117,10 @@ img {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
+  }
+  .footer-link{
+    font-size: 3rem;
+
   }
   
   .copyright {

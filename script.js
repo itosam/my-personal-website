@@ -1,2 +1,2 @@
 
-setTimeout(function(){alert("Hello! Welcome to my site!"); }, 10000);
+setTimeout(function(){alert("Hello! Welcome to my site!"); }, 15000);
